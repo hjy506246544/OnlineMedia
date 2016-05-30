@@ -1,0 +1,6 @@
+package fala.cellcom.com.cn.widget.pulltorefreshswipemenulistview.swipemenulistview;
+
+public interface SwipeMenuCreator {
+
+    void create(SwipeMenu menu);
+}

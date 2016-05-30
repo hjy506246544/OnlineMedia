@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bj"
+    tools:context="com.gvs.onlinemedia.activity.MainActivity" >
+
+    <com.gvs.onlinemedia.widget.Header
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+    	android:background="@color/translucent_8"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:text="在线FM"
+        style="@style/app_textStyle" />
+
+</RelativeLayout>
