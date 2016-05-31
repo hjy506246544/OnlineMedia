@@ -28,7 +28,7 @@ public class MainActivity extends FragmentActivityBase {
 	private Main_GridViewAdapter gridViewAdapter;
 	// 设置适配器的图片资源
     private int[] imageId = new int[] {
-            R.drawable.main_music_, R.drawable.main_cinema_,
+    		R.drawable.main_music_, R.drawable.main_cinema_,
             R.drawable.main_fm_};
     // 设置标题
     private String[] title = new String[] {
